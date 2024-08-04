@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <!-- Header section with navigation links -->
+        <header>
+            <nav>
+                <a href="./welcome-page.html">Home page</a>
+                <a href="./Recent-articles.html">Recent Articles</a>
+                <a href="./Popular-categories.html">Popular Categories</a>
+                <a href="./Newsletter.html">Newsletter</a>
+            </nav>
+          <hr>
+        </header>
+
+        <!--Main section-->
+        <main>
+            <!--Article Introduction-->
+            <section id="introduction">
+                <h1>Subscribe to Our Newsletter</h1>
+                <p>Stay updated with the latest reviews, tips, and insights on the best GPS collars for your pets. <br>
+                    Subscribe to our newsletter and never miss out on essential information to keep your furry friends 
+                    safe and healthy.
+                </p>
+                <br>
+            </section>
+
+            <!--Subscritpion Form-->
+            <form id="subscription-form" action="/Form exercises/Form-results.html" method="POST">
+                <h2>Subscription Form</h2>
+
+                <!--First Name-->
+                <label for="first-name"><h3>First Name:</h3></label>
+                <input id="first-name" type="text" name="first-name" placeholder="Enter your first name" required>
+                <br>
+                <br>
+                <!--Last Name-->
+                <label for="last-name"><h3>Last Name:</h3></label>
+                <input id="last-name" type="text" name="last-name" placeholder="Enter your last name" required>
+                <br>
+                <br>
+                <!--Email-->
+                <label for="email"><h3>Email Adress:</h3></label>
+                <input id="email" type="email" name="email" placeholder="Enter your email" required>
+                <br>
+                <br>
+                <!--Pet Type-->
+                <label for="pet-type"><h3>Pet Type:</h3></label>
+                <select id="pet-type" name="pet-type">
+                    <option value="" disabled selected>Select your pet type</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <!--Preferred Content-->
+                <label for="preferred-content"><h3>Preferred Content:</h3></label>
+                <select id="preferred-content" name="preferred-content" required>
+                    <option value="" disabled selected>Select preferred content</option>
+                    <option value="product-reviews">Product Reviews</option>
+                    <option value="tips-and-tricks">Tips and Tricks</option>
+                    <option value="both">Both</option>
+                </select>
+                <br>
+                <br>
+                <!--Consent-->
+                <label for="consent"><h3>Consent:</h3></label>
+                <input id="consent" name="consent" type="checkbox" required>
+                I agree to receive emails from GPS for Pets and understand I can unsubscribe at any time.
+                <br>
+                <br>
+                <!--Subscribe button-->
+                <button type="submit">Subscribe Now</button>
+            </form>
+            <!--Apprendre à faire une landing page-->
+        </main>
+        <footer><!--TBD--></footer>
+    </body>
+    <foot></foot>
+</html>
